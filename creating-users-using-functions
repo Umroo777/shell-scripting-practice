@@ -1,0 +1,21 @@
+#!/bin/bash
+
+<<info 
+  creating users using functions
+
+info
+
+function create-user {
+ read -p "enter username you want to create" username
+ sudo useradd -m $username
+
+echo "user '$username' created successfully"
+
+}
+for ((i=0; i<=5; i++))
+do	
+   create-user
+done  
+
+
+
