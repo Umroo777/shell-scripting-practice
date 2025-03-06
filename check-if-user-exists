@@ -2,6 +2,9 @@
 <<info
 thisthis scripts is used to check if  user exist or not.
 info
+<<help
+  this is added to check in github, in branch devv to marge into master.
+help
 
 read -p "enter the username you wish to checked" username
 
